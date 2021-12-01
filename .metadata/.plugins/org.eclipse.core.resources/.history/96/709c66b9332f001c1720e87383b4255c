@@ -1,0 +1,19 @@
+package types;
+import java.util.Scanner;
+import types.Array;
+import package.types.*;
+public class UserInput {
+
+	public static void main(String[] args) {
+	
+Scanner scannerobj = new Scanner(System.in);
+System.out.println("Enter user Name:");
+
+
+String userName = scannerobj.nextLine();
+System.out.println("Username is:"+ " " + userName);
+
+
+	}
+
+}

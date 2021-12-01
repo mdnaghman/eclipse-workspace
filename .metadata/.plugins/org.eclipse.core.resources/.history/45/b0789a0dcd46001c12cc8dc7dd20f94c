@@ -1,0 +1,21 @@
+package classesAndObjects;
+import java.util.Arrays;
+public class MyClass {
+
+	public static void main(String[] args) {
+	
+		int [] a= {-12,6,2,8,5,3,1,0,199,-11, -2, 19};
+		
+		int n= a.length;
+		
+		Arrays.sort(a);
+		
+		System.out.println("Second Highest Number: " + a[n-2]);
+		
+		
+		
+		
+		
+	}
+
+}

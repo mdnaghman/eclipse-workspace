@@ -1,0 +1,19 @@
+package ifstatement;   
+
+public class IfClass {
+
+	public static void main(String[] args) {
+		
+		
+	int noOfPattles = 11;
+		
+	if (noOfPattles % 2 == 0) {
+		System.out.println("he love me");
+		
+	}else {
+		System.out.println("he loves me not");
+	}
+		
+	} 
+
+}
